@@ -731,6 +731,28 @@ details.custom-details summary:hover {
     color: var(--secondary-text);
 }
 
+.project-cover {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.project-cover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.project-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .case-image {
     width: 100%;
     margin-bottom: 64px;
