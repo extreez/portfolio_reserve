@@ -824,3 +824,135 @@ details.custom-details summary:hover {
     border-color: #333;
     transform: translateY(-2px);
 }
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 240px;
+    }
+
+    .logo {
+        font-size: 56px;
+        transform: translateY(-20px);
+    }
+
+    .container {
+        padding: 0 24px 60px;
+    }
+
+    .profile-section {
+        margin-top: -48px;
+        margin-bottom: 60px;
+    }
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .bio {
+        font-size: 17px;
+        margin-bottom: 24px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .section {
+        margin-top: 80px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .timeline-date {
+        flex: none;
+        width: 100%;
+    }
+
+    .awards-row {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer {
+        margin-top: 80px;
+    }
+
+    .case-header {
+        padding: 0 20px;
+        height: 64px;
+    }
+
+    .case-content {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .case-title {
+        font-size: 32px;
+    }
+
+    .case-subtitle {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    .case-meta {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 0;
+        margin-bottom: 40px;
+    }
+
+    .case-section {
+        margin-bottom: 40px;
+    }
+
+    .case-heading {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .case-text {
+        font-size: 16px;
+    }
+
+    .case-columns {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 32px;
+    }
+
+    .case-image, .case-image-grid {
+        margin-bottom: 40px;
+    }
+
+    .case-image-grid.double {
+        grid-template-columns: 1fr;
+    }
+
+    .case-footer {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 60px;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+    }
+}
